@@ -1,0 +1,16 @@
+*.ipynb_checkpoints/*
+*.pyc
+*.log
+*/.vscode/*
+*/apex*
+
+*.pth
+*.npy
+*.npz
+
+
+xmc-base
+data
+Submission
+predz
+out
