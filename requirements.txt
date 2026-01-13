@@ -1,22 +1,10 @@
-# Core Machine Learning & Tensors
-torch==2.2.1
-torchvision
-torchaudio
-numpy>=1.24.0
-scipy>=1.10.0
-
-# Natural Language Processing
-transformers>=4.38.0
-sentencepiece
-tokenizers
-peft                # For LoRA fine-tuning
-vllm>=0.4.0         # For fast LLM inference
-
-# Data Processing & Utilities
-pandas
-scikit-learn        # For train_test_split and metrics
-tqdm                # For progress bars
-
-# XMLC Specific (MATCH and AttentionXML dependencies)
-faiss-gpu           # Efficient similarity search
-h5py                # Large data storage
+torch>=2.2.1
+transformers>=4.41.1
+sentencepiece>=0.1.99
+scikit-learn>=1.4.2
+pandas>=2.2.0
+numpy>=1.26.4
+scipy>=1.12.0
+tqdm>=4.66.0
+peft>=0.10.0
+vllm>=0.4.2
