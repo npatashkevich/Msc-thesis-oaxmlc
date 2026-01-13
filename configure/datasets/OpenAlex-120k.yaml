@@ -1,0 +1,24 @@
+name: OpenAlex-120k
+
+train:
+  texts: /HOME/patashke/MSc-thesis-openalex-xmlc/data/3_pre-processed/AttentionXML/oa120k/train_texts.npy
+  labels: /HOME/patashke/MSc-thesis-openalex-xmlc/data/3_pre-processed/AttentionXML/oa120k/train_labels.npy
+
+valid:
+  texts: /HOME/patashke/MSc-thesis-openalex-xmlc/data/3_pre-processed/AttentionXML/oa120k/val_texts.npy
+  labels: /HOME/patashke/MSc-thesis-openalex-xmlc/data/3_pre-processed/AttentionXML/oa120k/val_labels.npy
+
+test:
+  texts: /HOME/patashke/MSc-thesis-openalex-xmlc/data/3_pre-processed/AttentionXML/oa120k/test_texts.npy
+  labels: /HOME/patashke/MSc-thesis-openalex-xmlc/data/3_pre-processed/AttentionXML/oa120k/test_labels.npy
+
+embedding:
+  emb_init: /HOME/patashke/MSc-thesis-openalex-xmlc/data/3_pre-processed/AttentionXML/oa120k/emb_init.npy
+
+output:
+  res: /HOME/patashke/MSc-thesis-openalex-xmlc/results/AttentionXML/eval/OpenAlex-120k
+
+labels_binarizer: /HOME/patashke/MSc-thesis-openalex-xmlc/data/3_pre-processed/AttentionXML/oa120k/labels_binarizer.pkl
+
+model:
+  emb_size: 300

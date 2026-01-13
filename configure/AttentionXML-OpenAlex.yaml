@@ -1,0 +1,28 @@
+name: AttentionXML
+
+model:
+  hidden_size: 256
+  layers_num: 1
+  linear_size: [512, 256]
+  dropout: 0.5
+  emb_trainable: True
+
+train:
+  batch_size: 200        # можно увелить для 512/1024
+  nb_epoch: 10          # максимум эпох
+  swa_warmup: 0         # последние 5 эпох — SWA
+  early_stop: 5          # остановка, если 5 эпох нет улучшения
+  step: 1000  
+
+
+valid:
+  batch_size: 64
+
+predict:
+  batch_size: 512
+
+training:
+  learning_rate: 0.001  # Adam
+  dropout_emb: 0.2      # если ты хочешь точнее
+
+path: models
