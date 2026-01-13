@@ -11,7 +11,7 @@ The project benchmarks specialized Extreme Multi-Label Classification (XMLC) arc
 Specialized XMLC models (AttentionXML, MATCH, CascadeXML) consistently outperform general-purpose LLMs in both ranking accuracy and computational efficiency for production-scale indexing
 
 ## 🛠 Technical Stack
-* **Models:** AttentionXML, MATCH, CascadeXML, Llama 3.1 8B, Qwen 2.5 7B
+* **Models:** AttentionXML, MATCH, CascadeXML, Llama 3.1 8B, Qwen 2.5 7B, Mistral v0.3 7B
 * **Libraries:** PyTorch, PEFT (LoRA), vLLM for optimized inference
 * **Hardware:** NVIDIA L40S and Tesla V100 GPUs
 
